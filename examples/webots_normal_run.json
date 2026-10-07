@@ -1,0 +1,404 @@
+{
+  "time_s": 112.768,
+  "complete": true,
+  "paused": false,
+  "alarm": "",
+  "fault_armed": false,
+  "belt_speed_m_s": 0.0,
+  "current_bag": null,
+  "gate_counts": {
+    "A": 4,
+    "B": 4,
+    "C": 4
+  },
+  "metrics": {
+    "total_bags": 12,
+    "admitted": 12,
+    "delivered": 12,
+    "verified": 12,
+    "misroutes": 0,
+    "sorting_accuracy_pct": 100.0,
+    "mean_processing_s": 9.397333333333334,
+    "throughput_bags_min": 6.38479001135124
+  },
+  "bags": [
+    {
+      "bag_id": "B001",
+      "destination": "Delhi",
+      "category": "Standard",
+      "state": "Delivered",
+      "x": -1.0,
+      "y": -3.0,
+      "entered_at": 0.0,
+      "finished_at": 6.0480000000000045,
+      "expected_gate": "A",
+      "actuator_route": "A",
+      "actual_gate": "A",
+      "fault_applied": false,
+      "processing_time": 6.048
+    },
+    {
+      "bag_id": "B002",
+      "destination": "Mumbai",
+      "category": "Fragile",
+      "state": "Delivered",
+      "x": 1.6,
+      "y": 3.0,
+      "entered_at": 6.0480000000000045,
+      "finished_at": 18.144000000000013,
+      "expected_gate": "B",
+      "actuator_route": "B",
+      "actual_gate": "B",
+      "fault_applied": false,
+      "processing_time": 12.096
+    },
+    {
+      "bag_id": "B003",
+      "destination": "Bengaluru",
+      "category": "Standard",
+      "state": "Delivered",
+      "x": 5.2,
+      "y": 0.0,
+      "entered_at": 18.144000000000013,
+      "finished_at": 26.84800000000002,
+      "expected_gate": "C",
+      "actuator_route": "C",
+      "actual_gate": "C",
+      "fault_applied": false,
+      "processing_time": 8.704
+    },
+    {
+      "bag_id": "B004",
+      "destination": "Delhi",
+      "category": "Fragile",
+      "state": "Delivered",
+      "x": -1.0,
+      "y": -3.0,
+      "entered_at": 26.84800000000002,
+      "finished_at": 34.9439999999997,
+      "expected_gate": "A",
+      "actuator_route": "A",
+      "actual_gate": "A",
+      "fault_applied": false,
+      "processing_time": 8.096
+    },
+    {
+      "bag_id": "B005",
+      "destination": "Mumbai",
+      "category": "Standard",
+      "state": "Delivered",
+      "x": 1.6,
+      "y": 3.0,
+      "entered_at": 34.9439999999997,
+      "finished_at": 43.16799999999879,
+      "expected_gate": "B",
+      "actuator_route": "B",
+      "actual_gate": "B",
+      "fault_applied": false,
+      "processing_time": 8.224
+    },
+    {
+      "bag_id": "B006",
+      "destination": "Bengaluru",
+      "category": "Fragile",
+      "state": "Delivered",
+      "x": 5.2,
+      "y": 0.0,
+      "entered_at": 43.16799999999879,
+      "finished_at": 56.383999999997336,
+      "expected_gate": "C",
+      "actuator_route": "C",
+      "actual_gate": "C",
+      "fault_applied": false,
+      "processing_time": 13.216
+    },
+    {
+      "bag_id": "B007",
+      "destination": "Delhi",
+      "category": "Standard",
+      "state": "Delivered",
+      "x": -1.0,
+      "y": -3.0,
+      "entered_at": 56.383999999997336,
+      "finished_at": 62.43199999999667,
+      "expected_gate": "A",
+      "actuator_route": "A",
+      "actual_gate": "A",
+      "fault_applied": false,
+      "processing_time": 6.048
+    },
+    {
+      "bag_id": "B008",
+      "destination": "Mumbai",
+      "category": "Fragile",
+      "state": "Delivered",
+      "x": 1.6,
+      "y": 3.0,
+      "entered_at": 62.43199999999667,
+      "finished_at": 74.52799999999534,
+      "expected_gate": "B",
+      "actuator_route": "B",
+      "actual_gate": "B",
+      "fault_applied": false,
+      "processing_time": 12.096
+    },
+    {
+      "bag_id": "B009",
+      "destination": "Bengaluru",
+      "category": "Standard",
+      "state": "Delivered",
+      "x": 5.2,
+      "y": 0.0,
+      "entered_at": 74.52799999999534,
+      "finished_at": 83.23199999999439,
+      "expected_gate": "C",
+      "actuator_route": "C",
+      "actual_gate": "C",
+      "fault_applied": false,
+      "processing_time": 8.704
+    },
+    {
+      "bag_id": "B010",
+      "destination": "Delhi",
+      "category": "Fragile",
+      "state": "Delivered",
+      "x": -1.0,
+      "y": -3.0,
+      "entered_at": 83.23199999999439,
+      "finished_at": 91.3279999999935,
+      "expected_gate": "A",
+      "actuator_route": "A",
+      "actual_gate": "A",
+      "fault_applied": false,
+      "processing_time": 8.096
+    },
+    {
+      "bag_id": "B011",
+      "destination": "Mumbai",
+      "category": "Standard",
+      "state": "Delivered",
+      "x": 1.6,
+      "y": 3.0,
+      "entered_at": 91.3279999999935,
+      "finished_at": 99.55199999999259,
+      "expected_gate": "B",
+      "actuator_route": "B",
+      "actual_gate": "B",
+      "fault_applied": false,
+      "processing_time": 8.224
+    },
+    {
+      "bag_id": "B012",
+      "destination": "Bengaluru",
+      "category": "Fragile",
+      "state": "Delivered",
+      "x": 5.2,
+      "y": 0.0,
+      "entered_at": 99.55199999999259,
+      "finished_at": 112.76799999999113,
+      "expected_gate": "C",
+      "actuator_route": "C",
+      "actual_gate": "C",
+      "fault_applied": false,
+      "processing_time": 13.216
+    }
+  ],
+  "events": [
+    {
+      "time_s": 0.0,
+      "message": "B001: admitted at check-in"
+    },
+    {
+      "time_s": 1.09,
+      "message": "B001: tag read, Delhi, Standard"
+    },
+    {
+      "time_s": 3.52,
+      "message": "B001: transferred to conveyor A"
+    },
+    {
+      "time_s": 6.05,
+      "message": "B001: verified and delivered to gate A"
+    },
+    {
+      "time_s": 6.05,
+      "message": "B002: admitted at check-in"
+    },
+    {
+      "time_s": 7.14,
+      "message": "B002: tag read, Mumbai, Fragile"
+    },
+    {
+      "time_s": 15.62,
+      "message": "B002: transferred to conveyor B"
+    },
+    {
+      "time_s": 18.14,
+      "message": "B002: verified and delivered to gate B"
+    },
+    {
+      "time_s": 18.14,
+      "message": "B003: admitted at check-in"
+    },
+    {
+      "time_s": 19.23,
+      "message": "B003: tag read, Bengaluru, Standard"
+    },
+    {
+      "time_s": 24.58,
+      "message": "B003: transferred to conveyor C"
+    },
+    {
+      "time_s": 26.85,
+      "message": "B003: verified and delivered to gate C"
+    },
+    {
+      "time_s": 26.85,
+      "message": "B004: admitted at check-in"
+    },
+    {
+      "time_s": 27.94,
+      "message": "B004: tag read, Delhi, Fragile"
+    },
+    {
+      "time_s": 32.42,
+      "message": "B004: transferred to conveyor A"
+    },
+    {
+      "time_s": 34.94,
+      "message": "B004: verified and delivered to gate A"
+    },
+    {
+      "time_s": 34.94,
+      "message": "B005: admitted at check-in"
+    },
+    {
+      "time_s": 36.03,
+      "message": "B005: tag read, Mumbai, Standard"
+    },
+    {
+      "time_s": 40.64,
+      "message": "B005: transferred to conveyor B"
+    },
+    {
+      "time_s": 43.17,
+      "message": "B005: verified and delivered to gate B"
+    },
+    {
+      "time_s": 43.17,
+      "message": "B006: admitted at check-in"
+    },
+    {
+      "time_s": 44.26,
+      "message": "B006: tag read, Bengaluru, Fragile"
+    },
+    {
+      "time_s": 54.11,
+      "message": "B006: transferred to conveyor C"
+    },
+    {
+      "time_s": 56.38,
+      "message": "B006: verified and delivered to gate C"
+    },
+    {
+      "time_s": 56.38,
+      "message": "B007: admitted at check-in"
+    },
+    {
+      "time_s": 57.47,
+      "message": "B007: tag read, Delhi, Standard"
+    },
+    {
+      "time_s": 59.9,
+      "message": "B007: transferred to conveyor A"
+    },
+    {
+      "time_s": 62.43,
+      "message": "B007: verified and delivered to gate A"
+    },
+    {
+      "time_s": 62.43,
+      "message": "B008: admitted at check-in"
+    },
+    {
+      "time_s": 63.52,
+      "message": "B008: tag read, Mumbai, Fragile"
+    },
+    {
+      "time_s": 72.0,
+      "message": "B008: transferred to conveyor B"
+    },
+    {
+      "time_s": 74.53,
+      "message": "B008: verified and delivered to gate B"
+    },
+    {
+      "time_s": 74.53,
+      "message": "B009: admitted at check-in"
+    },
+    {
+      "time_s": 75.62,
+      "message": "B009: tag read, Bengaluru, Standard"
+    },
+    {
+      "time_s": 80.96,
+      "message": "B009: transferred to conveyor C"
+    },
+    {
+      "time_s": 83.23,
+      "message": "B009: verified and delivered to gate C"
+    },
+    {
+      "time_s": 83.23,
+      "message": "B010: admitted at check-in"
+    },
+    {
+      "time_s": 84.32,
+      "message": "B010: tag read, Delhi, Fragile"
+    },
+    {
+      "time_s": 88.8,
+      "message": "B010: transferred to conveyor A"
+    },
+    {
+      "time_s": 91.33,
+      "message": "B010: verified and delivered to gate A"
+    },
+    {
+      "time_s": 91.33,
+      "message": "B011: admitted at check-in"
+    },
+    {
+      "time_s": 92.42,
+      "message": "B011: tag read, Mumbai, Standard"
+    },
+    {
+      "time_s": 97.02,
+      "message": "B011: transferred to conveyor B"
+    },
+    {
+      "time_s": 99.55,
+      "message": "B011: verified and delivered to gate B"
+    },
+    {
+      "time_s": 99.55,
+      "message": "B012: admitted at check-in"
+    },
+    {
+      "time_s": 100.64,
+      "message": "B012: tag read, Bengaluru, Fragile"
+    },
+    {
+      "time_s": 110.5,
+      "message": "B012: transferred to conveyor C"
+    },
+    {
+      "time_s": 112.77,
+      "message": "B012: verified and delivered to gate C"
+    }
+  ],
+  "source": "Webots",
+  "run_id": "afae8b6445634bfe9a2a36634f2bf2f3",
+  "updated_at": 1791262838.1357255,
+  "last_command_id": null
+}

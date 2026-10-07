@@ -1,0 +1,41 @@
+{
+  "source": "Python controller validation, not a Webots run",
+  "timestep_s": 0.032,
+  "fault_note": "B004 receives a misroute; manual removal is simulated immediately.",
+  "normal": {
+    "metrics": {
+      "total_bags": 12,
+      "admitted": 12,
+      "delivered": 12,
+      "verified": 12,
+      "misroutes": 0,
+      "sorting_accuracy_pct": 100.0,
+      "mean_processing_s": 9.397333333333334,
+      "throughput_bags_min": 6.38479001135124
+    },
+    "time_s": 112.768,
+    "gate_counts": {
+      "A": 4,
+      "B": 4,
+      "C": 4
+    }
+  },
+  "one_misroute": {
+    "metrics": {
+      "total_bags": 12,
+      "admitted": 12,
+      "delivered": 11,
+      "verified": 12,
+      "misroutes": 1,
+      "sorting_accuracy_pct": 91.66666666666667,
+      "mean_processing_s": 9.515636363636363,
+      "throughput_bags_min": 5.652233488627472
+    },
+    "time_s": 116.768,
+    "gate_counts": {
+      "A": 3,
+      "B": 4,
+      "C": 4
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.venv/
+controllers/baggage_controller/runtime.ini
+worlds/.*.wbproj
+__pycache__/
+runtime/*.json
+runtime/*.tmp
+runtime/*.csv

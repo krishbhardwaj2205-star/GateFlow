@@ -1,0 +1,13 @@
+bag_id,destination,category,state,x,y,entered_at,finished_at,expected_gate,actuator_route,actual_gate,fault_applied,processing_time
+B001,Delhi,Standard,Delivered,-1.0,-3.0,0.0,6.0480000000000045,A,A,A,False,6.048
+B002,Mumbai,Fragile,Delivered,1.6,3.0,6.0480000000000045,18.144000000000013,B,B,B,False,12.096
+B003,Bengaluru,Standard,Delivered,5.2,0.0,18.144000000000013,26.84800000000002,C,C,C,False,8.704
+B004,Delhi,Fragile,Delivered,-1.0,-3.0,26.84800000000002,34.9439999999997,A,A,A,False,8.096
+B005,Mumbai,Standard,Delivered,1.6,3.0,34.9439999999997,43.16799999999879,B,B,B,False,8.224
+B006,Bengaluru,Fragile,Delivered,5.2,0.0,43.16799999999879,56.383999999997336,C,C,C,False,13.216
+B007,Delhi,Standard,Delivered,-1.0,-3.0,56.383999999997336,62.43199999999667,A,A,A,False,6.048
+B008,Mumbai,Fragile,Delivered,1.6,3.0,62.43199999999667,74.52799999999534,B,B,B,False,12.096
+B009,Bengaluru,Standard,Delivered,5.2,0.0,74.52799999999534,83.23199999999439,C,C,C,False,8.704
+B010,Delhi,Fragile,Delivered,-1.0,-3.0,83.23199999999439,91.3279999999935,A,A,A,False,8.096
+B011,Mumbai,Standard,Delivered,1.6,3.0,91.3279999999935,99.55199999999259,B,B,B,False,8.224
+B012,Bengaluru,Fragile,Delivered,5.2,0.0,99.55199999999259,112.76799999999113,C,C,C,False,13.216
